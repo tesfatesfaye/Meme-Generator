@@ -1,0 +1,59 @@
+.Image-div{
+position: relative;
+overflow: hidden;
+margin-left: 36px;
+max-width: fit-content;
+z-index: 1;
+
+
+}
+.Image-container{
+display: flex;
+overflow: hidden;
+justify-content:center;
+align-items: center;
+max-width: 500px;
+margin-left: 65px;
+   
+    
+}
+.Imagemain{
+    width: 100%;
+    
+    
+   
+}
+
+.firstText{
+  
+position: absolute;
+top:16px;
+width: 100%;
+height: auto;
+text-align: center;
+font-family: 'Impact';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+color: #000;
+-webkit-text-stroke-width:1px;
+-webkit-text-fill-color:  #FFFFFF;
+
+
+}
+.secondText{
+   
+    overflow: hidden;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #000;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-fill-color:  #FFFFFF;
+}
