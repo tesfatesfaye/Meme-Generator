@@ -6,10 +6,10 @@ import Nav from './components/Nav'
 
 
 function App() {
-  const[memeFile,setMemefile]=React.useState([])
+  const[memeFile,setMemeFile]=React.useState(()=>[])
   React.useEffect(()=>{
     fetch("https://api.imgflip.com/get_memes").then(res=> res.json())
-    .then(data=>setMemefile(data.data.memes))
+    .then(data=>setMemeFile(data.data.memes))
      
   },[])
    
